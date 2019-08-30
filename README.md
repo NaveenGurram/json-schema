@@ -19,8 +19,6 @@
 * [$ref resolution](#ref-resolution)
 * [Javadoc](#javadoc)
 
-<a href="http://jetbrains.com"><img src="./jetbrains-logo.png" /></a> Supported by JetBrains.
-
 This project is an implementation of the JSON Schema [Draft v4][draft-zyp-json-schema-04], [Draft v6](https://tools.ietf.org/html/draft-wright-json-schema-01) and [Draft v7](https://tools.ietf.org/html/draft-handrews-json-schema-validation-00) specifications.
 It uses the [org.json API](http://stleary.github.io/JSON-java/) (created by Douglas Crockford) for representing JSON data.
 
@@ -46,7 +44,7 @@ Add the JitPack repository and the dependency to your `pom.xml` as follows:
 <dependency>
     <groupId>com.github.everit-org.json-schema</groupId>
     <artifactId>org.everit.json.schema</artifactId>
-    <version>1.11.0</version>
+    <version>1.11.1</version>
 </dependency>
 ...
 <repositories>
@@ -514,7 +512,12 @@ Notes:
 
 ## Javadoc
 
-For the latest releases (1.11.0) the javadoc is published [on erosb.github.io](http://erosb.github.io/everit-json-schema/javadoc/1.11.0/)
+By library version:
+
+ * [1.11.1](http://erosb.github.io/everit-json-schema/javadoc/1.11.1/)
+ * [1.11.0](http://erosb.github.io/everit-json-schema/javadoc/1.11.0/)
+ * [1.10.0](http://erosb.github.io/everit-json-schema/javadoc/1.10.0/)
+ * [1.9.2](http://erosb.github.io/everit-json-schema/javadoc/1.9.2/)
 
 The generated javadoc of versions 1.0.0 - 1.5.1 is available at [javadoc.io](http://javadoc.io/doc/org.everit.json/org.everit.json.schema/1.5.1)
 
